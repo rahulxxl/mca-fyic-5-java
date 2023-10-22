@@ -3,10 +3,10 @@ package javaSwing;
 import javax.swing.*;
 import java.awt.*;
 
-public class MyGridLayout {
+public class TheGridLayout {
     private JFrame myFrame;
 
-    public MyGridLayout(){
+    public TheGridLayout(){
         JButton b1 = new JButton("B1");
         JButton b2 = new JButton("B2");
         JButton b3 = new JButton("B3");

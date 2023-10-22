@@ -3,10 +3,10 @@ package javaSwing;
 import javax.swing.*;
 import java.awt.*;
 
-public class MyBorderLayout extends JFrame {
+public class TheBorderLayout extends JFrame{
     private JButton b1, b2, b3, b4, b5;
 
-    public MyBorderLayout(){
+    public TheBorderLayout(){
         b1 = new JButton("TOP");
         b2 = new JButton("RIGHT");
         b3 = new JButton("BOTTOM");
@@ -27,4 +27,5 @@ public class MyBorderLayout extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
+
 }
